@@ -1,4 +1,4 @@
-"""Acquire one real room, run inference and prepare Notebook sampling paths."""
+"""Acquire one real room and run semantic segmentation and evaluation."""
 from pathlib import Path
 import shutil
 import subprocess
@@ -23,7 +23,7 @@ def main():
         raise RuntimeError('Output already exists; inspect it before choosing whether to rerun inference.')
     subprocess.run([sys.executable, str(ROOT/'segmentation_pipeline.py'), str(target),
                     '--output', str(output), '--device', 'cpu', '--max-passes', '300', '--evaluate'], check=True, cwd=ROOT)
-    print('Notebook sampling is ready for office_2. Results belong to this run, not the historical batch.')
+    print('Demo segmentation is ready: results/area3_batch/Area_3_office_2/segmentation.npz. Open it in the desktop client. Results belong to this run.')
 
 if __name__ == '__main__':
     main()

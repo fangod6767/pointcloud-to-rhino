@@ -1,7 +1,0 @@
-# Install in pointcloud_client/.venv (uses the tested project dependencies).
--r requirements-tested.txt
--r pointcloud_client/requirements.txt
--r pointcloud_client/requirements-engine.txt
-pandas==3.1.1
-jupyterlab==4.6.6
-PyYAML==6.0.3

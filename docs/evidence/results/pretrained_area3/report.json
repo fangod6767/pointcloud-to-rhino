@@ -1601,7 +1601,7 @@
     ],
     "point_count": 759861,
     "scale_to_meters": 1,
-    "source": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\data\\processed\\Area_3_office_1.npz",
+    "source": "<PROJECT_ROOT>\\data\\processed\\Area_3_office_1.npz",
     "source_sha256": "70d0ae5fcecbd45b9867f0b5f039f83d3da436ba7479ebfe314bc1bf97a3b434",
     "up_axis": "z"
   },

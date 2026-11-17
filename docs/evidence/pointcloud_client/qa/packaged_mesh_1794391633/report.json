@@ -7,7 +7,7 @@
     "mesh_faces": 359631,
     "meshes": 47,
     "models": 47,
-    "path": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\pointcloud_client\\qa\\packaged_mesh_1794391633\\model.3dm",
+    "path": "<PROJECT_ROOT>\\pointcloud_client\\qa\\packaged_mesh_1794391633\\model.3dm",
     "readback_valid": true,
     "units": "meters"
   },
@@ -2434,7 +2434,7 @@
     "point_count": 739209,
     "removed_nonfinite": 0,
     "scale_to_meters": 1,
-    "source": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\pointcloud_client\\qa\\raw_office2.ply",
+    "source": "<PROJECT_ROOT>\\pointcloud_client\\qa\\raw_office2.ply",
     "source_sha256": "ad2b4a0bd769188f4a73721a17fbb9f9ae720a05f07ced7174404449e188fc99",
     "up_axis": "z"
   },
