@@ -1,0 +1,1958 @@
+{
+  "classes": [
+    "ceiling",
+    "floor",
+    "wall",
+    "beam",
+    "column",
+    "window",
+    "door",
+    "table",
+    "chair",
+    "sofa",
+    "bookcase",
+    "board",
+    "clutter"
+  ],
+  "dataset": "S3DIS v1.2 Aligned Version",
+  "room_count": 272,
+  "rooms": [
+    {
+      "file": "data\\full_processed\\Area_1_WC_1.npz",
+      "points": 1112933,
+      "rejected_rows": 0,
+      "room": "Area_1/WC_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_conferenceRoom_1.npz",
+      "points": 1136617,
+      "rejected_rows": 0,
+      "room": "Area_1/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_conferenceRoom_2.npz",
+      "points": 1535040,
+      "rejected_rows": 0,
+      "room": "Area_1/conferenceRoom_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_copyRoom_1.npz",
+      "points": 510949,
+      "rejected_rows": 0,
+      "room": "Area_1/copyRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_1.npz",
+      "points": 344097,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_2.npz",
+      "points": 579313,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_3.npz",
+      "points": 369279,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_4.npz",
+      "points": 367003,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_5.npz",
+      "points": 465400,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_6.npz",
+      "points": 3840664,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_7.npz",
+      "points": 3319646,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_hallway_8.npz",
+      "points": 1250030,
+      "rejected_rows": 0,
+      "room": "Area_1/hallway_8",
+      "unknown_class_files": [
+        "stairs_1.txt",
+        "stairs_2.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_1.npz",
+      "points": 884955,
+      "rejected_rows": 0,
+      "room": "Area_1/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_10.npz",
+      "points": 804674,
+      "rejected_rows": 0,
+      "room": "Area_1/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_11.npz",
+      "points": 826749,
+      "rejected_rows": 0,
+      "room": "Area_1/office_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_12.npz",
+      "points": 784578,
+      "rejected_rows": 0,
+      "room": "Area_1/office_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_13.npz",
+      "points": 684204,
+      "rejected_rows": 0,
+      "room": "Area_1/office_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_14.npz",
+      "points": 698524,
+      "rejected_rows": 0,
+      "room": "Area_1/office_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_15.npz",
+      "points": 469658,
+      "rejected_rows": 0,
+      "room": "Area_1/office_15",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_16.npz",
+      "points": 1399240,
+      "rejected_rows": 0,
+      "room": "Area_1/office_16",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_17.npz",
+      "points": 889762,
+      "rejected_rows": 0,
+      "room": "Area_1/office_17",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_18.npz",
+      "points": 794160,
+      "rejected_rows": 0,
+      "room": "Area_1/office_18",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_19.npz",
+      "points": 848534,
+      "rejected_rows": 0,
+      "room": "Area_1/office_19",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_2.npz",
+      "points": 909798,
+      "rejected_rows": 0,
+      "room": "Area_1/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_20.npz",
+      "points": 873306,
+      "rejected_rows": 0,
+      "room": "Area_1/office_20",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_21.npz",
+      "points": 874359,
+      "rejected_rows": 0,
+      "room": "Area_1/office_21",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_22.npz",
+      "points": 822089,
+      "rejected_rows": 0,
+      "room": "Area_1/office_22",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_23.npz",
+      "points": 856367,
+      "rejected_rows": 0,
+      "room": "Area_1/office_23",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_24.npz",
+      "points": 841960,
+      "rejected_rows": 0,
+      "room": "Area_1/office_24",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_25.npz",
+      "points": 802847,
+      "rejected_rows": 0,
+      "room": "Area_1/office_25",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_26.npz",
+      "points": 813738,
+      "rejected_rows": 0,
+      "room": "Area_1/office_26",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_27.npz",
+      "points": 836192,
+      "rejected_rows": 0,
+      "room": "Area_1/office_27",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_28.npz",
+      "points": 718834,
+      "rejected_rows": 0,
+      "room": "Area_1/office_28",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_29.npz",
+      "points": 502947,
+      "rejected_rows": 0,
+      "room": "Area_1/office_29",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_3.npz",
+      "points": 844607,
+      "rejected_rows": 0,
+      "room": "Area_1/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_30.npz",
+      "points": 1895645,
+      "rejected_rows": 0,
+      "room": "Area_1/office_30",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_31.npz",
+      "points": 3804929,
+      "rejected_rows": 0,
+      "room": "Area_1/office_31",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_4.npz",
+      "points": 625144,
+      "rejected_rows": 0,
+      "room": "Area_1/office_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_5.npz",
+      "points": 652373,
+      "rejected_rows": 0,
+      "room": "Area_1/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_6.npz",
+      "points": 618584,
+      "rejected_rows": 0,
+      "room": "Area_1/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_7.npz",
+      "points": 645540,
+      "rejected_rows": 0,
+      "room": "Area_1/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_8.npz",
+      "points": 833682,
+      "rejected_rows": 0,
+      "room": "Area_1/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_office_9.npz",
+      "points": 825980,
+      "rejected_rows": 0,
+      "room": "Area_1/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_1_pantry_1.npz",
+      "points": 511880,
+      "rejected_rows": 0,
+      "room": "Area_1/pantry_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_WC_1.npz",
+      "points": 610183,
+      "rejected_rows": 0,
+      "room": "Area_2/WC_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_WC_2.npz",
+      "points": 859076,
+      "rejected_rows": 0,
+      "room": "Area_2/WC_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_auditorium_1.npz",
+      "points": 7063406,
+      "rejected_rows": 0,
+      "room": "Area_2/auditorium_1",
+      "unknown_class_files": [
+        "stairs_1.txt",
+        "stairs_2.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_auditorium_2.npz",
+      "points": 9273742,
+      "rejected_rows": 0,
+      "room": "Area_2/auditorium_2",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_conferenceRoom_1.npz",
+      "points": 2314634,
+      "rejected_rows": 0,
+      "room": "Area_2/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_1.npz",
+      "points": 276730,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_10.npz",
+      "points": 2496809,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_10",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_11.npz",
+      "points": 446041,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_11",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_12.npz",
+      "points": 1191262,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_12",
+      "unknown_class_files": [
+        "stairs_1.txt",
+        "stairs_2.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_2.npz",
+      "points": 1099671,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_2",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_3.npz",
+      "points": 1162762,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_4.npz",
+      "points": 363092,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_4",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_5.npz",
+      "points": 2970017,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_6.npz",
+      "points": 267723,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_7.npz",
+      "points": 249145,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_8.npz",
+      "points": 4084133,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_hallway_9.npz",
+      "points": 383613,
+      "rejected_rows": 0,
+      "room": "Area_2/hallway_9",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_1.npz",
+      "points": 424365,
+      "rejected_rows": 0,
+      "room": "Area_2/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_10.npz",
+      "points": 524135,
+      "rejected_rows": 0,
+      "room": "Area_2/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_11.npz",
+      "points": 584471,
+      "rejected_rows": 0,
+      "room": "Area_2/office_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_12.npz",
+      "points": 609447,
+      "rejected_rows": 0,
+      "room": "Area_2/office_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_13.npz",
+      "points": 575663,
+      "rejected_rows": 0,
+      "room": "Area_2/office_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_14.npz",
+      "points": 1352790,
+      "rejected_rows": 0,
+      "room": "Area_2/office_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_2.npz",
+      "points": 473604,
+      "rejected_rows": 0,
+      "room": "Area_2/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_3.npz",
+      "points": 570662,
+      "rejected_rows": 0,
+      "room": "Area_2/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_4.npz",
+      "points": 1153565,
+      "rejected_rows": 0,
+      "room": "Area_2/office_4",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_5.npz",
+      "points": 1104420,
+      "rejected_rows": 0,
+      "room": "Area_2/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_6.npz",
+      "points": 444682,
+      "rejected_rows": 0,
+      "room": "Area_2/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_7.npz",
+      "points": 450437,
+      "rejected_rows": 0,
+      "room": "Area_2/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_8.npz",
+      "points": 574965,
+      "rejected_rows": 0,
+      "room": "Area_2/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_office_9.npz",
+      "points": 513108,
+      "rejected_rows": 0,
+      "room": "Area_2/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_1.npz",
+      "points": 201841,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_2.npz",
+      "points": 372629,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_3.npz",
+      "points": 391370,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_4.npz",
+      "points": 409396,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_5.npz",
+      "points": 322934,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_6.npz",
+      "points": 282918,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_7.npz",
+      "points": 363586,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_8.npz",
+      "points": 227921,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_2_storage_9.npz",
+      "points": 253499,
+      "rejected_rows": 0,
+      "room": "Area_2/storage_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_WC_1.npz",
+      "points": 1049844,
+      "rejected_rows": 0,
+      "room": "Area_3/WC_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_WC_2.npz",
+      "points": 1141736,
+      "rejected_rows": 0,
+      "room": "Area_3/WC_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_conferenceRoom_1.npz",
+      "points": 1266990,
+      "rejected_rows": 0,
+      "room": "Area_3/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_1.npz",
+      "points": 973222,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_2.npz",
+      "points": 1193228,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_3.npz",
+      "points": 175075,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_4.npz",
+      "points": 1542355,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_5.npz",
+      "points": 108666,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_hallway_6.npz",
+      "points": 207314,
+      "rejected_rows": 0,
+      "room": "Area_3/hallway_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_lounge_1.npz",
+      "points": 1067465,
+      "rejected_rows": 0,
+      "room": "Area_3/lounge_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_lounge_2.npz",
+      "points": 1998447,
+      "rejected_rows": 0,
+      "room": "Area_3/lounge_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_1.npz",
+      "points": 759861,
+      "rejected_rows": 0,
+      "room": "Area_3/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_10.npz",
+      "points": 592838,
+      "rejected_rows": 0,
+      "room": "Area_3/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_2.npz",
+      "points": 739209,
+      "rejected_rows": 0,
+      "room": "Area_3/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_3.npz",
+      "points": 790601,
+      "rejected_rows": 0,
+      "room": "Area_3/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_4.npz",
+      "points": 795551,
+      "rejected_rows": 0,
+      "room": "Area_3/office_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_5.npz",
+      "points": 800364,
+      "rejected_rows": 0,
+      "room": "Area_3/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_6.npz",
+      "points": 760942,
+      "rejected_rows": 0,
+      "room": "Area_3/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_7.npz",
+      "points": 839708,
+      "rejected_rows": 0,
+      "room": "Area_3/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_8.npz",
+      "points": 982865,
+      "rejected_rows": 0,
+      "room": "Area_3/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_office_9.npz",
+      "points": 603754,
+      "rejected_rows": 0,
+      "room": "Area_3/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_storage_1.npz",
+      "points": 178968,
+      "rejected_rows": 0,
+      "room": "Area_3/storage_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_3_storage_2.npz",
+      "points": 93170,
+      "rejected_rows": 0,
+      "room": "Area_3/storage_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_WC_1.npz",
+      "points": 270336,
+      "rejected_rows": 0,
+      "room": "Area_4/WC_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_WC_2.npz",
+      "points": 480011,
+      "rejected_rows": 0,
+      "room": "Area_4/WC_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_WC_3.npz",
+      "points": 232457,
+      "rejected_rows": 0,
+      "room": "Area_4/WC_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_WC_4.npz",
+      "points": 618324,
+      "rejected_rows": 0,
+      "room": "Area_4/WC_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_conferenceRoom_1.npz",
+      "points": 1138116,
+      "rejected_rows": 0,
+      "room": "Area_4/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_conferenceRoom_2.npz",
+      "points": 1653935,
+      "rejected_rows": 0,
+      "room": "Area_4/conferenceRoom_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_conferenceRoom_3.npz",
+      "points": 1020604,
+      "rejected_rows": 0,
+      "room": "Area_4/conferenceRoom_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_1.npz",
+      "points": 1403995,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_10.npz",
+      "points": 1292743,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_11.npz",
+      "points": 744458,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_12.npz",
+      "points": 984420,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_13.npz",
+      "points": 883137,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_13",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_14.npz",
+      "points": 1084456,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_14",
+      "unknown_class_files": [
+        "stairs_1.txt",
+        "stairs_2.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_2.npz",
+      "points": 1329426,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_3.npz",
+      "points": 2121526,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_4.npz",
+      "points": 1172789,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_5.npz",
+      "points": 85855,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_6.npz",
+      "points": 147099,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_7.npz",
+      "points": 1588544,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_8.npz",
+      "points": 93133,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_hallway_9.npz",
+      "points": 400649,
+      "rejected_rows": 0,
+      "room": "Area_4/hallway_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_lobby_1.npz",
+      "points": 3979386,
+      "rejected_rows": 0,
+      "room": "Area_4/lobby_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_lobby_2.npz",
+      "points": 2053967,
+      "rejected_rows": 0,
+      "room": "Area_4/lobby_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_1.npz",
+      "points": 575149,
+      "rejected_rows": 0,
+      "room": "Area_4/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_10.npz",
+      "points": 1072201,
+      "rejected_rows": 0,
+      "room": "Area_4/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_11.npz",
+      "points": 716793,
+      "rejected_rows": 0,
+      "room": "Area_4/office_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_12.npz",
+      "points": 649910,
+      "rejected_rows": 0,
+      "room": "Area_4/office_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_13.npz",
+      "points": 697716,
+      "rejected_rows": 0,
+      "room": "Area_4/office_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_14.npz",
+      "points": 253998,
+      "rejected_rows": 0,
+      "room": "Area_4/office_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_15.npz",
+      "points": 702596,
+      "rejected_rows": 0,
+      "room": "Area_4/office_15",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_16.npz",
+      "points": 2145926,
+      "rejected_rows": 0,
+      "room": "Area_4/office_16",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_17.npz",
+      "points": 1080236,
+      "rejected_rows": 0,
+      "room": "Area_4/office_17",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_18.npz",
+      "points": 753094,
+      "rejected_rows": 0,
+      "room": "Area_4/office_18",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_19.npz",
+      "points": 672800,
+      "rejected_rows": 0,
+      "room": "Area_4/office_19",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_2.npz",
+      "points": 499730,
+      "rejected_rows": 0,
+      "room": "Area_4/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_20.npz",
+      "points": 909214,
+      "rejected_rows": 0,
+      "room": "Area_4/office_20",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_21.npz",
+      "points": 973020,
+      "rejected_rows": 0,
+      "room": "Area_4/office_21",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_22.npz",
+      "points": 509439,
+      "rejected_rows": 0,
+      "room": "Area_4/office_22",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_3.npz",
+      "points": 585985,
+      "rejected_rows": 0,
+      "room": "Area_4/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_4.npz",
+      "points": 827508,
+      "rejected_rows": 0,
+      "room": "Area_4/office_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_5.npz",
+      "points": 957597,
+      "rejected_rows": 0,
+      "room": "Area_4/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_6.npz",
+      "points": 717943,
+      "rejected_rows": 0,
+      "room": "Area_4/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_7.npz",
+      "points": 698018,
+      "rejected_rows": 0,
+      "room": "Area_4/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_8.npz",
+      "points": 634994,
+      "rejected_rows": 0,
+      "room": "Area_4/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_office_9.npz",
+      "points": 1069592,
+      "rejected_rows": 0,
+      "room": "Area_4/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_storage_1.npz",
+      "points": 151662,
+      "rejected_rows": 0,
+      "room": "Area_4/storage_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_storage_2.npz",
+      "points": 354169,
+      "rejected_rows": 0,
+      "room": "Area_4/storage_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_storage_3.npz",
+      "points": 386793,
+      "rejected_rows": 0,
+      "room": "Area_4/storage_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_4_storage_4.npz",
+      "points": 307058,
+      "rejected_rows": 0,
+      "room": "Area_4/storage_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_WC_1.npz",
+      "points": 719348,
+      "rejected_rows": 0,
+      "room": "Area_5/WC_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_WC_2.npz",
+      "points": 640250,
+      "rejected_rows": 0,
+      "room": "Area_5/WC_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_conferenceRoom_1.npz",
+      "points": 1047554,
+      "rejected_rows": 0,
+      "room": "Area_5/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_conferenceRoom_2.npz",
+      "points": 1922357,
+      "rejected_rows": 0,
+      "room": "Area_5/conferenceRoom_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_conferenceRoom_3.npz",
+      "points": 1507439,
+      "rejected_rows": 0,
+      "room": "Area_5/conferenceRoom_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_1.npz",
+      "points": 3361173,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_10.npz",
+      "points": 1210360,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_11.npz",
+      "points": 811640,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_12.npz",
+      "points": 810024,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_13.npz",
+      "points": 1286197,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_14.npz",
+      "points": 743965,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_15.npz",
+      "points": 1280664,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_15",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_2.npz",
+      "points": 4481021,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_3.npz",
+      "points": 1272342,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_4.npz",
+      "points": 1027382,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_5.npz",
+      "points": 2865301,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_6.npz",
+      "points": 1100936,
+      "rejected_rows": 1,
+      "room": "Area_5/hallway_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_7.npz",
+      "points": 1256534,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_8.npz",
+      "points": 526782,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_hallway_9.npz",
+      "points": 1201560,
+      "rejected_rows": 0,
+      "room": "Area_5/hallway_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_lobby_1.npz",
+      "points": 1162766,
+      "rejected_rows": 0,
+      "room": "Area_5/lobby_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_1.npz",
+      "points": 816136,
+      "rejected_rows": 0,
+      "room": "Area_5/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_10.npz",
+      "points": 752349,
+      "rejected_rows": 0,
+      "room": "Area_5/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_11.npz",
+      "points": 868668,
+      "rejected_rows": 0,
+      "room": "Area_5/office_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_12.npz",
+      "points": 844731,
+      "rejected_rows": 0,
+      "room": "Area_5/office_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_13.npz",
+      "points": 1031980,
+      "rejected_rows": 0,
+      "room": "Area_5/office_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_14.npz",
+      "points": 1192488,
+      "rejected_rows": 0,
+      "room": "Area_5/office_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_15.npz",
+      "points": 1317779,
+      "rejected_rows": 0,
+      "room": "Area_5/office_15",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_16.npz",
+      "points": 745900,
+      "rejected_rows": 0,
+      "room": "Area_5/office_16",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_17.npz",
+      "points": 1012866,
+      "rejected_rows": 0,
+      "room": "Area_5/office_17",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_18.npz",
+      "points": 1310739,
+      "rejected_rows": 0,
+      "room": "Area_5/office_18",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_19.npz",
+      "points": 1641506,
+      "rejected_rows": 0,
+      "room": "Area_5/office_19",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_2.npz",
+      "points": 867248,
+      "rejected_rows": 0,
+      "room": "Area_5/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_20.npz",
+      "points": 513674,
+      "rejected_rows": 0,
+      "room": "Area_5/office_20",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_21.npz",
+      "points": 2047655,
+      "rejected_rows": 0,
+      "room": "Area_5/office_21",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_22.npz",
+      "points": 789364,
+      "rejected_rows": 0,
+      "room": "Area_5/office_22",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_23.npz",
+      "points": 897251,
+      "rejected_rows": 0,
+      "room": "Area_5/office_23",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_24.npz",
+      "points": 1588824,
+      "rejected_rows": 0,
+      "room": "Area_5/office_24",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_25.npz",
+      "points": 633286,
+      "rejected_rows": 0,
+      "room": "Area_5/office_25",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_26.npz",
+      "points": 744988,
+      "rejected_rows": 0,
+      "room": "Area_5/office_26",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_27.npz",
+      "points": 737347,
+      "rejected_rows": 0,
+      "room": "Area_5/office_27",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_28.npz",
+      "points": 777028,
+      "rejected_rows": 0,
+      "room": "Area_5/office_28",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_29.npz",
+      "points": 1654230,
+      "rejected_rows": 0,
+      "room": "Area_5/office_29",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_3.npz",
+      "points": 760563,
+      "rejected_rows": 0,
+      "room": "Area_5/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_30.npz",
+      "points": 481837,
+      "rejected_rows": 0,
+      "room": "Area_5/office_30",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_31.npz",
+      "points": 818107,
+      "rejected_rows": 0,
+      "room": "Area_5/office_31",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_32.npz",
+      "points": 809428,
+      "rejected_rows": 0,
+      "room": "Area_5/office_32",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_33.npz",
+      "points": 852519,
+      "rejected_rows": 0,
+      "room": "Area_5/office_33",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_34.npz",
+      "points": 889970,
+      "rejected_rows": 0,
+      "room": "Area_5/office_34",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_35.npz",
+      "points": 909089,
+      "rejected_rows": 0,
+      "room": "Area_5/office_35",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_36.npz",
+      "points": 1232000,
+      "rejected_rows": 0,
+      "room": "Area_5/office_36",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_37.npz",
+      "points": 2575390,
+      "rejected_rows": 0,
+      "room": "Area_5/office_37",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_38.npz",
+      "points": 2721241,
+      "rejected_rows": 0,
+      "room": "Area_5/office_38",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_39.npz",
+      "points": 928712,
+      "rejected_rows": 0,
+      "room": "Area_5/office_39",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_4.npz",
+      "points": 820397,
+      "rejected_rows": 0,
+      "room": "Area_5/office_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_40.npz",
+      "points": 2495982,
+      "rejected_rows": 0,
+      "room": "Area_5/office_40",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_41.npz",
+      "points": 1423998,
+      "rejected_rows": 0,
+      "room": "Area_5/office_41",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_42.npz",
+      "points": 844478,
+      "rejected_rows": 0,
+      "room": "Area_5/office_42",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_5.npz",
+      "points": 766453,
+      "rejected_rows": 0,
+      "room": "Area_5/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_6.npz",
+      "points": 750592,
+      "rejected_rows": 0,
+      "room": "Area_5/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_7.npz",
+      "points": 821442,
+      "rejected_rows": 0,
+      "room": "Area_5/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_8.npz",
+      "points": 884812,
+      "rejected_rows": 0,
+      "room": "Area_5/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_office_9.npz",
+      "points": 780337,
+      "rejected_rows": 0,
+      "room": "Area_5/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_pantry_1.npz",
+      "points": 721359,
+      "rejected_rows": 0,
+      "room": "Area_5/pantry_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_storage_1.npz",
+      "points": 637533,
+      "rejected_rows": 0,
+      "room": "Area_5/storage_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_storage_2.npz",
+      "points": 780299,
+      "rejected_rows": 0,
+      "room": "Area_5/storage_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_storage_3.npz",
+      "points": 175538,
+      "rejected_rows": 0,
+      "room": "Area_5/storage_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_5_storage_4.npz",
+      "points": 685639,
+      "rejected_rows": 0,
+      "room": "Area_5/storage_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_conferenceRoom_1.npz",
+      "points": 1067709,
+      "rejected_rows": 0,
+      "room": "Area_6/conferenceRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_copyRoom_1.npz",
+      "points": 536617,
+      "rejected_rows": 0,
+      "room": "Area_6/copyRoom_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_1.npz",
+      "points": 3200003,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_2.npz",
+      "points": 3137948,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_3.npz",
+      "points": 312914,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_4.npz",
+      "points": 324860,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_5.npz",
+      "points": 593808,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_hallway_6.npz",
+      "points": 955888,
+      "rejected_rows": 0,
+      "room": "Area_6/hallway_6",
+      "unknown_class_files": [
+        "stairs_1.txt"
+      ]
+    },
+    {
+      "file": "data\\full_processed\\Area_6_lounge_1.npz",
+      "points": 1304868,
+      "rejected_rows": 0,
+      "room": "Area_6/lounge_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_1.npz",
+      "points": 796826,
+      "rejected_rows": 0,
+      "room": "Area_6/office_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_10.npz",
+      "points": 778459,
+      "rejected_rows": 0,
+      "room": "Area_6/office_10",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_11.npz",
+      "points": 563893,
+      "rejected_rows": 0,
+      "room": "Area_6/office_11",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_12.npz",
+      "points": 608666,
+      "rejected_rows": 0,
+      "room": "Area_6/office_12",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_13.npz",
+      "points": 505593,
+      "rejected_rows": 0,
+      "room": "Area_6/office_13",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_14.npz",
+      "points": 471408,
+      "rejected_rows": 0,
+      "room": "Area_6/office_14",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_15.npz",
+      "points": 511794,
+      "rejected_rows": 0,
+      "room": "Area_6/office_15",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_16.npz",
+      "points": 619040,
+      "rejected_rows": 0,
+      "room": "Area_6/office_16",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_17.npz",
+      "points": 538932,
+      "rejected_rows": 0,
+      "room": "Area_6/office_17",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_18.npz",
+      "points": 515012,
+      "rejected_rows": 0,
+      "room": "Area_6/office_18",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_19.npz",
+      "points": 515366,
+      "rejected_rows": 0,
+      "room": "Area_6/office_19",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_2.npz",
+      "points": 774438,
+      "rejected_rows": 0,
+      "room": "Area_6/office_2",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_20.npz",
+      "points": 527493,
+      "rejected_rows": 0,
+      "room": "Area_6/office_20",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_21.npz",
+      "points": 563435,
+      "rejected_rows": 0,
+      "room": "Area_6/office_21",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_22.npz",
+      "points": 458035,
+      "rejected_rows": 0,
+      "room": "Area_6/office_22",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_23.npz",
+      "points": 800830,
+      "rejected_rows": 0,
+      "room": "Area_6/office_23",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_24.npz",
+      "points": 793044,
+      "rejected_rows": 0,
+      "room": "Area_6/office_24",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_25.npz",
+      "points": 796064,
+      "rejected_rows": 0,
+      "room": "Area_6/office_25",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_26.npz",
+      "points": 790788,
+      "rejected_rows": 0,
+      "room": "Area_6/office_26",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_27.npz",
+      "points": 758821,
+      "rejected_rows": 0,
+      "room": "Area_6/office_27",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_28.npz",
+      "points": 765859,
+      "rejected_rows": 0,
+      "room": "Area_6/office_28",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_29.npz",
+      "points": 839599,
+      "rejected_rows": 0,
+      "room": "Area_6/office_29",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_3.npz",
+      "points": 767446,
+      "rejected_rows": 0,
+      "room": "Area_6/office_3",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_30.npz",
+      "points": 780774,
+      "rejected_rows": 0,
+      "room": "Area_6/office_30",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_31.npz",
+      "points": 526365,
+      "rejected_rows": 0,
+      "room": "Area_6/office_31",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_32.npz",
+      "points": 834848,
+      "rejected_rows": 0,
+      "room": "Area_6/office_32",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_33.npz",
+      "points": 772324,
+      "rejected_rows": 0,
+      "room": "Area_6/office_33",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_34.npz",
+      "points": 748254,
+      "rejected_rows": 0,
+      "room": "Area_6/office_34",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_35.npz",
+      "points": 772518,
+      "rejected_rows": 0,
+      "room": "Area_6/office_35",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_36.npz",
+      "points": 819528,
+      "rejected_rows": 0,
+      "room": "Area_6/office_36",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_37.npz",
+      "points": 815859,
+      "rejected_rows": 0,
+      "room": "Area_6/office_37",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_4.npz",
+      "points": 763454,
+      "rejected_rows": 0,
+      "room": "Area_6/office_4",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_5.npz",
+      "points": 832677,
+      "rejected_rows": 0,
+      "room": "Area_6/office_5",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_6.npz",
+      "points": 798764,
+      "rejected_rows": 0,
+      "room": "Area_6/office_6",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_7.npz",
+      "points": 784777,
+      "rejected_rows": 0,
+      "room": "Area_6/office_7",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_8.npz",
+      "points": 1508952,
+      "rejected_rows": 0,
+      "room": "Area_6/office_8",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_office_9.npz",
+      "points": 1635561,
+      "rejected_rows": 0,
+      "room": "Area_6/office_9",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_openspace_1.npz",
+      "points": 1966712,
+      "rejected_rows": 0,
+      "room": "Area_6/openspace_1",
+      "unknown_class_files": []
+    },
+    {
+      "file": "data\\full_processed\\Area_6_pantry_1.npz",
+      "points": 496232,
+      "rejected_rows": 0,
+      "room": "Area_6/pantry_1",
+      "unknown_class_files": []
+    }
+  ],
+  "seconds": 367.37954990006983,
+  "total_points": 273608339,
+  "total_rejected_rows": 1
+}

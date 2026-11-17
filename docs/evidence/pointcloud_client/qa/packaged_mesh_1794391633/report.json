@@ -1,0 +1,2463 @@
+{
+  "elapsed_seconds": 26.602607400156558,
+  "export": {
+    "closed_solids": 0,
+    "cloud_objects": 47,
+    "cloud_points": 739209,
+    "mesh_faces": 359631,
+    "meshes": 47,
+    "models": 47,
+    "path": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\pointcloud_client\\qa\\packaged_mesh_1794391633\\model.3dm",
+    "readback_valid": true,
+    "units": "meters"
+  },
+  "geometry": {
+    "all_geometry_requires_review": true,
+    "generated": 47,
+    "groups": [
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 718,
+        "center": [
+          17.279404624529246,
+          -13.514188826113369,
+          0.8656086321271166
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.006887910887598991,
+        "covered_fraction": 0.9892103972535556,
+        "group_id": -1,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "待归组",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 4078,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011085241160403925,
+        "triangles_count": 1896,
+        "vertices_count": 1352
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 925,
+        "center": [
+          17.017738977663438,
+          -13.448018225079046,
+          2.715006139230242
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0005933322827331722,
+        "covered_fraction": 1,
+        "group_id": 0,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G001",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 137498,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010274275509952796,
+        "triangles_count": 67469,
+        "vertices_count": 34190
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 31,
+        "center": [
+          15.796826733220922,
+          -13.29132920208544,
+          2.861116343205518
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0014227668289095163,
+        "covered_fraction": 1,
+        "group_id": 1,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G002",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 404,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.009836212530759296,
+        "triangles_count": 225,
+        "vertices_count": 129
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 1239,
+        "center": [
+          17.304745544353384,
+          -13.31710958136598,
+          -0.004004192492220409
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0011272684205323458,
+        "covered_fraction": 1,
+        "group_id": 2,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G003",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 93501,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01035459288545467,
+        "triangles_count": 45281,
+        "vertices_count": 23237
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 763,
+        "center": [
+          15.82774211162656,
+          -11.964953952939755,
+          1.6238314933667193
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0006328648887574673,
+        "covered_fraction": 1,
+        "group_id": 3,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G004",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 44651,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010418822247572465,
+        "triangles_count": 21895,
+        "vertices_count": 11328
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 402,
+        "center": [
+          17.270307390047535,
+          -14.885638847351075,
+          2.6399985418798715
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.001901873853057623,
+        "covered_fraction": 1,
+        "group_id": 4,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G005",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 5475,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01006495392830658,
+        "triangles_count": 2650,
+        "vertices_count": 1527
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 219,
+        "center": [
+          15.050452040652587,
+          -14.886246986676227,
+          1.6988236308974303
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0011999225243926048,
+        "covered_fraction": 1,
+        "group_id": 5,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G006",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 11561,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010546268273129284,
+        "triangles_count": 5533,
+        "vertices_count": 2873
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 550,
+        "center": [
+          18.71179949898005,
+          -14.885238291746083,
+          1.567818423438996
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0009999910835176706,
+        "covered_fraction": 1,
+        "group_id": 6,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G007",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 22558,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01046852438894147,
+        "triangles_count": 11038,
+        "vertices_count": 5789
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 409,
+        "center": [
+          14.500555592186291,
+          -13.923928909260038,
+          2.1821878107268713
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0010004043579101562,
+        "covered_fraction": 1,
+        "group_id": 7,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G008",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 10058,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010735238528504972,
+        "triangles_count": 4897,
+        "vertices_count": 2649
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 91,
+        "center": [
+          14.501636323366059,
+          -12.60348365219396,
+          0.25519298228986287
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0008679978782311082,
+        "covered_fraction": 1,
+        "group_id": 8,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G009",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 2508,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010057195822707428,
+        "triangles_count": 1299,
+        "vertices_count": 696
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 36,
+        "center": [
+          14.513938339689105,
+          -12.130273607654608,
+          0.8567726405369753
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0030338563956320286,
+        "covered_fraction": 1,
+        "group_id": 9,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G010",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 519,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.009990228061332769,
+        "triangles_count": 264,
+        "vertices_count": 151
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 218,
+        "center": [
+          20.08261468996424,
+          -14.293858783192395,
+          1.5940333583104118
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0006257251952774823,
+        "covered_fraction": 1,
+        "group_id": 10,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G011",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 12081,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010254066047435242,
+        "triangles_count": 5914,
+        "vertices_count": 3063
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 402,
+        "center": [
+          19.72244824536663,
+          -13.595556645734542,
+          2.323857701391352
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0019582060631364584,
+        "covered_fraction": 1,
+        "group_id": 11,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G012",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 23816,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010614239535802834,
+        "triangles_count": 11684,
+        "vertices_count": 6032
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 88,
+        "center": [
+          14.554188643068835,
+          -12.029271801081842,
+          1.7134841309096807
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0011524399742484093,
+        "covered_fraction": 1,
+        "group_id": 12,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G013",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 2237,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010623228027676174,
+        "triangles_count": 1170,
+        "vertices_count": 630
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 438,
+        "center": [
+          14.467212026710474,
+          -13.333712340748948,
+          1.7229805557603401
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0008763833902776241,
+        "covered_fraction": 0.9994,
+        "group_id": 13,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G014",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 38212,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010397995431540184,
+        "triangles_count": 18830,
+        "vertices_count": 9629
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 130,
+        "center": [
+          14.388831364500756,
+          -12.883485878589106,
+          1.271999215892717
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0062695033848285675,
+        "covered_fraction": 0.9952941176470588,
+        "group_id": 14,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G015",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 2550,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010413465746173203,
+        "triangles_count": 1266,
+        "vertices_count": 700
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 79,
+        "center": [
+          16.405991455859414,
+          -14.87538481313559,
+          1.3586361534933973
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0008355777827091515,
+        "covered_fraction": 1,
+        "group_id": 15,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G016",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 1289,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011048478401279111,
+        "triangles_count": 663,
+        "vertices_count": 373
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 104,
+        "center": [
+          14.507933356715183,
+          -12.137268621781294,
+          1.2287872544690674
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.006536373868584633,
+        "covered_fraction": 1,
+        "group_id": 16,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G017",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 1020,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010738716047078515,
+        "triangles_count": 512,
+        "vertices_count": 310
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 304,
+        "center": [
+          19.648695176736716,
+          -12.434489356986683,
+          1.0948439912153793
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0030082345474511385,
+        "covered_fraction": 1,
+        "group_id": 17,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G018",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 22082,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010483182016574395,
+        "triangles_count": 10956,
+        "vertices_count": 5625
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 303,
+        "center": [
+          20.102500040276833,
+          -13.430652595952797,
+          1.2456315554759179
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.003866562619805336,
+        "covered_fraction": 0.9998,
+        "group_id": 18,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G019",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 11212,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010632674393331099,
+        "triangles_count": 5611,
+        "vertices_count": 2956
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 102,
+        "center": [
+          20.045577390244084,
+          -12.819634791314032,
+          2.1321242897278037
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.16705971956253052,
+        "covered_fraction": 0.9388145315487572,
+        "group_id": 19,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G020",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 523,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.009930608390976271,
+        "triangles_count": 230,
+        "vertices_count": 170
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 1038,
+        "center": [
+          17.707494503139102,
+          -14.113040571973672,
+          0.6941352022039173
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.004579916596412659,
+        "covered_fraction": 0.9998,
+        "group_id": 20,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G021",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 40295,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010692958899479322,
+        "triangles_count": 20028,
+        "vertices_count": 10501
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 429,
+        "center": [
+          15.147993808763502,
+          -12.542104948814057,
+          0.6140767147856753
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.015208838507533073,
+        "covered_fraction": 1,
+        "group_id": 21,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G022",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 8890,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011419265080006036,
+        "triangles_count": 4029,
+        "vertices_count": 2208
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 121,
+        "center": [
+          16.0157327361171,
+          -12.389300143095053,
+          0.5590295964114156
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0021728852298110723,
+        "covered_fraction": 1,
+        "group_id": 22,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G023",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 3345,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010354351801382253,
+        "triangles_count": 1799,
+        "vertices_count": 958
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 411,
+        "center": [
+          16.04479054218253,
+          -13.387358756096898,
+          0.4674667077325807
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.01968195103108883,
+        "covered_fraction": 0.9978,
+        "group_id": 23,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G024",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 6503,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.012940172859340444,
+        "triangles_count": 2741,
+        "vertices_count": 1563
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 77,
+        "center": [
+          15.958967378438977,
+          -12.529814023178126,
+          0.06669168040873467
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.025685230270028114,
+        "covered_fraction": 0.9967373572593801,
+        "group_id": 24,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G025",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 613,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.014704403962048578,
+        "triangles_count": 181,
+        "vertices_count": 128
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 333,
+        "center": [
+          17.117534413552537,
+          -12.495863372555734,
+          0.4206833822285635
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.008753592148423195,
+        "covered_fraction": 1,
+        "group_id": 25,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G026",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 8834,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010797879832753463,
+        "triangles_count": 4395,
+        "vertices_count": 2353
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 227,
+        "center": [
+          17.462344148219106,
+          -13.863280635559851,
+          0.6496843288829091
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.011181576177477837,
+        "covered_fraction": 0.9938,
+        "group_id": 26,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G027",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 5794,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010329008692003677,
+        "triangles_count": 2887,
+        "vertices_count": 1554
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 61,
+        "center": [
+          17.156671546421443,
+          -13.980181808695416,
+          0.05020234624300796
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0164048932492733,
+        "covered_fraction": 1,
+        "group_id": 27,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G028",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 341,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.015281515578295895,
+        "triangles_count": 119,
+        "vertices_count": 89
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 79,
+        "center": [
+          17.465396637957088,
+          -13.895811615854756,
+          0.07319263469908656
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.019122149795293808,
+        "covered_fraction": 0.9971671388101983,
+        "group_id": 28,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G029",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 706,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011582969477871644,
+        "triangles_count": 253,
+        "vertices_count": 165
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 661,
+        "center": [
+          18.719676952097732,
+          -13.60226053722056,
+          0.5578441283399991
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.015393775887787342,
+        "covered_fraction": 1,
+        "group_id": 29,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G030",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 13710,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01081080663116401,
+        "triangles_count": 6089,
+        "vertices_count": 3355
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 1724,
+        "center": [
+          18.385996737921968,
+          -12.192691841579858,
+          1.3366050560425335
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.011576755903661251,
+        "covered_fraction": 0.9994,
+        "group_id": 30,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G031",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 56922,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01143911348782399,
+        "triangles_count": 26006,
+        "vertices_count": 13765
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 327,
+        "center": [
+          16.784142867740762,
+          -11.974975985912018,
+          1.5059001475412919
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0007815484423190355,
+        "covered_fraction": 1,
+        "group_id": 31,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G032",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 25758,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010593597511018743,
+        "triangles_count": 12913,
+        "vertices_count": 6615
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 1998,
+        "center": [
+          16.761589735605806,
+          -14.536474746923963,
+          1.617556649924613
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0054159751161932945,
+        "covered_fraction": 0.9996,
+        "group_id": 32,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G033",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 75683,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010757067040853618,
+        "triangles_count": 36714,
+        "vertices_count": 19305
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 216,
+        "center": [
+          14.903014210859935,
+          -13.977709309961282,
+          0.294016911438438
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.008350144140422344,
+        "covered_fraction": 0.9995098039215686,
+        "group_id": 33,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G034",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 4080,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010991111428342653,
+        "triangles_count": 2036,
+        "vertices_count": 1118
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 97,
+        "center": [
+          15.073635963236907,
+          -12.235811330482278,
+          0.32379358512337036
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.004660900216549635,
+        "covered_fraction": 1,
+        "group_id": 34,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G035",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 2931,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01036597430707706,
+        "triangles_count": 1447,
+        "vertices_count": 774
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 72,
+        "center": [
+          15.599558452293577,
+          -14.524266428761669,
+          0.18566681598878285
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.004987507127225399,
+        "covered_fraction": 1,
+        "group_id": 35,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G036",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 2233,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010462697441183704,
+        "triangles_count": 1078,
+        "vertices_count": 576
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 170,
+        "center": [
+          15.770068493366242,
+          -13.425645168463388,
+          2.7717494997183483
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.009955281391739845,
+        "covered_fraction": 0.9998,
+        "group_id": 36,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G037",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 6000,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011200818709698338,
+        "triangles_count": 2982,
+        "vertices_count": 1568
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 77,
+        "center": [
+          16.254007494638838,
+          -14.431057770205975,
+          0.1767394180915514
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.008666633628308773,
+        "covered_fraction": 1,
+        "group_id": 37,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G038",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 2268,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011050428662863732,
+        "triangles_count": 1149,
+        "vertices_count": 613
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 141,
+        "center": [
+          16.8875348543134,
+          -14.015467552826783,
+          0.2918152203059722
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.005044137593358755,
+        "covered_fraction": 1,
+        "group_id": 38,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G039",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 3745,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010282289438142833,
+        "triangles_count": 1911,
+        "vertices_count": 1018
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 208,
+        "center": [
+          16.994248362142113,
+          -13.397431239407581,
+          2.7630189261659384
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.005882878787815571,
+        "covered_fraction": 1,
+        "group_id": 39,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G040",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 4385,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010656349850156345,
+        "triangles_count": 2250,
+        "vertices_count": 1222
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 51,
+        "center": [
+          17.0333907133091,
+          -11.991161704777243,
+          0.49664521034427744
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0007639801478944719,
+        "covered_fraction": 1,
+        "group_id": 40,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G041",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 668,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010449533354470783,
+        "triangles_count": 343,
+        "vertices_count": 198
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 62,
+        "center": [
+          17.14294449595863,
+          -14.704121763877197,
+          0.15451285541964965
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0010511195287108421,
+        "covered_fraction": 1,
+        "group_id": 41,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G042",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 739,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011061801861759644,
+        "triangles_count": 392,
+        "vertices_count": 228
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 206,
+        "center": [
+          18.239882082259772,
+          -13.420443294799764,
+          2.780626525698908
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.014602091163396835,
+        "covered_fraction": 0.9994,
+        "group_id": 42,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G043",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 5987,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.01213907310767682,
+        "triangles_count": 2830,
+        "vertices_count": 1504
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 237,
+        "center": [
+          19.437234446721117,
+          -14.2419414187496,
+          1.021710584545959
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.003983089700341225,
+        "covered_fraction": 1,
+        "group_id": 43,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G044",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 8569,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010569520292454936,
+        "triangles_count": 4569,
+        "vertices_count": 2403
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 46,
+        "center": [
+          19.020416412619348,
+          -14.703351986117479,
+          0.13355226498356784
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0020656355191022158,
+        "covered_fraction": 1,
+        "group_id": 44,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G045",
+        "normal_policy": "align estimated normals to dominant plane; vertices remain unchanged",
+        "points": 574,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.011241147301630932,
+        "triangles_count": 284,
+        "vertices_count": 166
+      },
+      {
+        "assumption": "Ball Pivoting from measured points. No hole filling or watertight-solid guarantee. Parameters may bridge gaps smaller than the support/edge thresholds.",
+        "boundary_edges": 87,
+        "center": [
+          19.03137714599677,
+          -14.198013321532187,
+          0.2743616192030844
+        ],
+        "closed": false,
+        "cloud_to_surface_p95_m": 0.0036938716657459736,
+        "covered_fraction": 1,
+        "group_id": 45,
+        "kind": "mesh",
+        "max_edge_m": 0.08,
+        "name": "G046",
+        "normal_policy": "local tangent-plane consistency",
+        "points": 1803,
+        "radii_m": [
+          0.03,
+          0.04
+        ],
+        "requested_spacing_m": 0.02,
+        "sampling_m": 0.02,
+        "surface_to_cloud_p95_m": 0.010091999278175884,
+        "triangles_count": 923,
+        "vertices_count": 504
+      }
+    ],
+    "max_edge_m": 0.08,
+    "meshes": 47,
+    "method": "Ball Pivoting + local point support and edge filtering",
+    "skipped": [],
+    "spacing_m": 0.02,
+    "triangles": 359631,
+    "vertices": 187860
+  },
+  "group_count": 46,
+  "grouping_coordinate_system": "Local inference coordinates in meters; add input.inference_origin_m for canonical coordinates",
+  "grouping_note": "RANSAC + DBSCAN candidates within predicted classes, not learned instances",
+  "groups": [
+    {
+      "bounds_m": [
+        [
+          -2.72724986076355,
+          -1.4590771198272705,
+          2.7179999351501465
+        ],
+        [
+          2.380833148956299,
+          1.464416265487671,
+          2.75766658782959
+        ]
+      ],
+      "class_id": 0,
+      "class_name": "ceiling",
+      "coarse_points": 8689,
+      "id": 0,
+      "low_confidence_fraction": 0.012199332489354356,
+      "mean_confidence": 0.9816839098930359,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.0016184014059781567,
+        0.0006078488352657258,
+        0.9999985056472248,
+        -2.7375861005305926
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.5805331468582153,
+          0.07239951938390732,
+          2.875666618347168
+        ],
+        [
+          -1.267124891281128,
+          0.19599971175193787,
+          2.888000011444092
+        ]
+      ],
+      "class_id": 0,
+      "class_name": "ceiling",
+      "coarse_points": 36,
+      "id": 1,
+      "low_confidence_fraction": 0.3055555555555556,
+      "mean_confidence": 0.6559187173843384,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.6862497329711914,
+          -1.2912862300872803,
+          0.003800000296905637
+        ],
+        [
+          2.92549991607666,
+          1.4275996685028076,
+          0.04649999737739563
+        ]
+      ],
+      "class_id": 1,
+      "class_name": "floor",
+      "coarse_points": 6056,
+      "id": 2,
+      "low_confidence_fraction": 0.008586525759577279,
+      "mean_confidence": 0.9788799285888672,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        2.340205348660426e-05,
+        0.00019299622988087087,
+        0.9999999811023994,
+        -0.019240611006301814
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.72160005569458,
+          1.4170830249786377,
+          0.032999999821186066
+        ],
+        [
+          0.586444616317749,
+          1.4739999771118164,
+          2.705699920654297
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 2913,
+      "id": 3,
+      "low_confidence_fraction": 0.11946446961894953,
+      "mean_confidence": 0.835919976234436,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        -0.0020916003807600653,
+        0.9999529731449525,
+        -0.009469778583337862,
+        -1.447619499774422
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.7266924381256104,
+          -1.4820003509521484,
+          2.5455000400543213
+        ],
+        [
+          2.3684003353118896,
+          -1.4318573474884033,
+          2.707900047302246
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 413,
+      "id": 4,
+      "low_confidence_fraction": 0.04600484261501211,
+      "mean_confidence": 0.8290254473686218,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.0007279743763723947,
+        0.9999828721580905,
+        0.005807361170347858,
+        1.448209507592905
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.714062452316284,
+          -1.4800004959106445,
+          0.9155000448226929
+        ],
+        [
+          -1.433499813079834,
+          -1.4205793142318726,
+          2.2689332962036133
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 746,
+      "id": 5,
+      "low_confidence_fraction": 0.10187667560321716,
+      "mean_confidence": 0.8067255616188049,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.0007279743763723947,
+        0.9999828721580905,
+        0.005807361170347858,
+        1.448209507592905
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.18229961395263672,
+          -1.4758955240249634,
+          0.7929999828338623
+        ],
+        [
+          2.8525002002716064,
+          -1.4199050664901733,
+          2.265956401824951
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 1436,
+      "id": 6,
+      "low_confidence_fraction": 0.10515320334261838,
+      "mean_confidence": 0.866948127746582,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.0007279743763723947,
+        0.9999828721580905,
+        0.005807361170347858,
+        1.448209507592905
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.7469563484191895,
+          -1.4228185415267944,
+          1.274999976158142
+        ],
+        [
+          -2.6969997882843018,
+          1.4284995794296265,
+          2.721599817276001
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 691,
+      "id": 7,
+      "low_confidence_fraction": 0.4833574529667149,
+      "mean_confidence": 0.5988084077835083,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9999917146135481,
+        0.001942366219807437,
+        0.0035774177453073972,
+        2.711669138147649
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.742999792098999,
+          0.4314994812011719,
+          0.06487499922513962
+        ],
+        [
+          -2.711777687072754,
+          1.224555253982544,
+          0.49927273392677307
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 222,
+      "id": 8,
+      "low_confidence_fraction": 0.24774774774774774,
+      "mean_confidence": 0.6619735360145569,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9999917146135481,
+        0.001942366219807437,
+        0.0035774177453073972,
+        2.711669138147649
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.746166467666626,
+          1.1943327188491821,
+          0.7590000033378601
+        ],
+        [
+          -2.6856000423431396,
+          1.3829996585845947,
+          0.9882631897926331
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 38,
+      "id": 9,
+      "low_confidence_fraction": 0.9473684210526315,
+      "mean_confidence": 0.4717063009738922,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9999917146135481,
+        0.001942366219807437,
+        0.0035774177453073972,
+        2.711669138147649
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          2.839000701904297,
+          -1.4241670370101929,
+          0.7800000309944153
+        ],
+        [
+          2.868999481201172,
+          -0.3321113586425781,
+          2.180999994277954
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 775,
+      "id": 10,
+      "low_confidence_fraction": 0.04645161290322581,
+      "mean_confidence": 0.9431558847427368,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9999675245652853,
+        -0.006947633437192742,
+        -0.004084140594789045,
+        -2.8628528252254357
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          2.25990891456604,
+          -1.4578465223312378,
+          2.135999917984009
+        ],
+        [
+          2.86173677444458,
+          1.3009439706802368,
+          2.7328333854675293
+        ]
+      ],
+      "class_id": 3,
+      "class_name": "beam",
+      "coarse_points": 1684,
+      "id": 11,
+      "low_confidence_fraction": 0.03622327790973872,
+      "mean_confidence": 0.9513824582099915,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.755922794342041,
+          1.1432303190231323,
+          1.4227499961853027
+        ],
+        [
+          -2.385293960571289,
+          1.4639997482299805,
+          2.022624969482422
+        ]
+      ],
+      "class_id": 4,
+      "class_name": "column",
+      "coarse_points": 154,
+      "id": 12,
+      "low_confidence_fraction": 0.5974025974025974,
+      "mean_confidence": 0.5554496645927429,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.807499885559082,
+          -1.1805002689361572,
+          0.7836666703224182
+        ],
+        [
+          -2.703249931335449,
+          1.2244441509246826,
+          2.699812412261963
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 2548,
+      "id": 13,
+      "low_confidence_fraction": 0.06318681318681318,
+      "mean_confidence": 0.8899691104888916,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9998287451728423,
+        0.01499390966051762,
+        -0.010847257680700972,
+        2.768228603783899
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.864999771118164,
+          -0.14300024509429932,
+          1.154249906539917
+        ],
+        [
+          -2.800388813018799,
+          1.177499532699585,
+          1.3787368535995483
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 211,
+      "id": 14,
+      "low_confidence_fraction": 0.018957345971563982,
+      "mean_confidence": 0.863967776298523,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9950289686438417,
+        0.00665147465779696,
+        -0.09936352169910859,
+        2.942028111526028
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.102647066116333,
+          -1.45652437210083,
+          1.187399983406067
+        ],
+        [
+          -0.5422999262809753,
+          -1.4443336725234985,
+          1.6252222061157227
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 87,
+      "id": 15,
+      "low_confidence_fraction": 0.6206896551724138,
+      "mean_confidence": 0.561005175113678,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        9.928500610256077e-05,
+        0.9999721498243508,
+        0.007462554398716126,
+        1.438955123225171
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.810333013534546,
+          1.1556663513183594,
+          0.9819999933242798
+        ],
+        [
+          -2.623473644256592,
+          1.4543074369430542,
+          1.7423913478851318
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 80,
+      "id": 16,
+      "low_confidence_fraction": 0.6625,
+      "mean_confidence": 0.5517587661743164,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          1.929499864578247,
+          0.9469995498657227,
+          0.03266666457056999
+        ],
+        [
+          2.925999641418457,
+          1.059000015258789,
+          2.195176362991333
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 1512,
+      "id": 17,
+      "low_confidence_fraction": 0.011243386243386243,
+      "mean_confidence": 0.9621060490608215,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        -0.06542572231558448,
+        0.9978572638694608,
+        -0.0005964917749089471,
+        -0.8309663110872685
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          2.849933385848999,
+          -0.5034003257751465,
+          0.04399999976158142
+        ],
+        [
+          2.9250001907348633,
+          0.9837773442268372,
+          2.177952289581299
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 817,
+      "id": 18,
+      "low_confidence_fraction": 0.030599755201958383,
+      "mean_confidence": 0.905075192451477,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        0.9997890009001839,
+        -0.020487830823379623,
+        0.0014840711453396205,
+        -2.887024768650945
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          2.592750072479248,
+          -0.021105565130710602,
+          1.4110000133514404
+        ],
+        [
+          2.927000045776367,
+          1.0579371452331543,
+          2.2003333568573
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 53,
+      "id": 19,
+      "low_confidence_fraction": 0.20754716981132076,
+      "mean_confidence": 0.753016471862793,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.607999801635742,
+          -1.4475717544555664,
+          0.025833332911133766
+        ],
+        [
+          2.902348041534424,
+          0.10318148881196976,
+          0.8606363534927368
+        ]
+      ],
+      "class_id": 7,
+      "class_name": "table",
+      "coarse_points": 2947,
+      "id": 20,
+      "low_confidence_fraction": 0.049202578893790296,
+      "mean_confidence": 0.9159924983978271,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.5264997482299805,
+          0.17199993133544922,
+          0.053777776658535004
+        ],
+        [
+          -1.8789997100830078,
+          1.4547690153121948,
+          0.7950000166893005
+        ]
+      ],
+      "class_id": 7,
+      "class_name": "table",
+      "coarse_points": 682,
+      "id": 21,
+      "low_confidence_fraction": 0.2434017595307918,
+      "mean_confidence": 0.8160008192062378,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.5673332214355469,
+          0.8063996434211731,
+          0.3092857301235199
+        ],
+        [
+          -1.075666904449463,
+          1.3236662149429321,
+          0.8958571553230286
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 296,
+      "id": 22,
+      "low_confidence_fraction": 0.02364864864864865,
+      "mean_confidence": 0.9634565114974976,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.535714030265808,
+          -0.32971450686454773,
+          0.021687500178813934
+        ],
+        [
+          -0.9694995880126953,
+          0.3294997215270996,
+          1.0945000648498535
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 590,
+      "id": 23,
+      "low_confidence_fraction": 0.00847457627118644,
+      "mean_confidence": 0.9760299324989319,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.4086664915084839,
+          0.7107328176498413,
+          0.04475000128149986
+        ],
+        [
+          -1.037750244140625,
+          1.0204997062683105,
+          0.1340000033378601
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 58,
+      "id": 24,
+      "low_confidence_fraction": 0,
+      "mean_confidence": 0.9811190366744995,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.5519993901252747,
+          0.593888521194458,
+          0.018444444984197617
+        ],
+        [
+          0.09225015342235565,
+          1.2044999599456787,
+          0.8040000200271606
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 738,
+      "id": 25,
+      "low_confidence_fraction": 0.006775067750677507,
+      "mean_confidence": 0.9858077764511108,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.16549968719482422,
+          -0.8575458526611328,
+          0.38466668128967285
+        ],
+        [
+          0.5264997482299805,
+          -0.18416722118854523,
+          1.0182499885559082
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 541,
+      "id": 26,
+      "low_confidence_fraction": 0.022181146025878003,
+      "mean_confidence": 0.9533185958862305,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.14386948943138123,
+          -0.7674286961555481,
+          0.033799998462200165
+        ],
+        [
+          0.02700042724609375,
+          -0.4258004128932953,
+          0.12387499958276749
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 35,
+      "id": 27,
+      "low_confidence_fraction": 0.37142857142857144,
+      "mean_confidence": 0.6649370193481445,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          0.13999994099140167,
+          -0.6400003433227539,
+          0.023222222924232483
+        ],
+        [
+          0.49500003457069397,
+          -0.231857568025589,
+          0.20200000703334808
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 60,
+      "id": 28,
+      "low_confidence_fraction": 0.03333333333333333,
+      "mean_confidence": 0.9553748965263367,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          1.2390003204345703,
+          -0.5580005645751953,
+          0.030400000512599945
+        ],
+        [
+          1.9330005645751953,
+          0.09999942779541016,
+          1.083714246749878
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 1139,
+      "id": 29,
+      "low_confidence_fraction": 0.004389815627743635,
+      "mean_confidence": 0.9904939532279968,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          0.4978336691856384,
+          0.9702346920967102,
+          0.03511111065745354
+        ],
+        [
+          2.378333568572998,
+          1.4676918983459473,
+          2.507166624069214
+        ]
+      ],
+      "class_id": 10,
+      "class_name": "bookcase",
+      "coarse_points": 4365,
+      "id": 30,
+      "low_confidence_fraction": 0.013058419243986255,
+      "mean_confidence": 0.9589018225669861,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.4257057905197144,
+          1.4232627153396606,
+          0.7392666935920715
+        ],
+        [
+          0.5266841053962708,
+          1.4729995727539062,
+          2.300631523132324
+        ]
+      ],
+      "class_id": 11,
+      "class_name": "board",
+      "coarse_points": 1713,
+      "id": 31,
+      "low_confidence_fraction": 0.050204319906596614,
+      "mean_confidence": 0.9258811473846436,
+      "method": "RANSAC plane + DBSCAN",
+      "plane_m": [
+        -0.0004732577786224599,
+        0.9999109911828777,
+        -0.013333631866438989,
+        -1.4301880245839127
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.7041175365448,
+          -1.4686930179595947,
+          0.7536666393280029
+        ],
+        [
+          2.417062520980835,
+          1.1425995826721191,
+          2.618000030517578
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 5649,
+      "id": 32,
+      "low_confidence_fraction": 0.07806691449814127,
+      "mean_confidence": 0.8901141881942749,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.503833055496216,
+          -1.0535002946853638,
+          0.036666665226221085
+        ],
+        [
+          -2.1182498931884766,
+          -0.19150042533874512,
+          0.5059999823570251
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 389,
+      "id": 33,
+      "low_confidence_fraction": 0.010282776349614395,
+      "mean_confidence": 0.89915531873703,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -2.38112473487854,
+          1.0984997749328613,
+          0.03400000184774399
+        ],
+        [
+          -1.9024544954299927,
+          1.3764997720718384,
+          0.5817499756813049
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 239,
+      "id": 34,
+      "low_confidence_fraction": 0.14225941422594143,
+      "mean_confidence": 0.8337599039077759,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.8883329629898071,
+          -1.2570003271102905,
+          0.047199998050928116
+        ],
+        [
+          -1.3881425857543945,
+          -1.0346673727035522,
+          0.4153636395931244
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 169,
+      "id": 35,
+      "low_confidence_fraction": 0.08875739644970414,
+      "mean_confidence": 0.7088984847068787,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.7444781064987183,
+          -0.30357176065444946,
+          2.6907646656036377
+        ],
+        [
+          -1.121500015258789,
+          0.30833297967910767,
+          2.889214277267456
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 466,
+      "id": 36,
+      "low_confidence_fraction": 0.11158798283261803,
+      "mean_confidence": 0.7756896615028381,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -1.215545415878296,
+          -1.2135004997253418,
+          0.04500000178813934
+        ],
+        [
+          -0.7468462586402893,
+          -0.8432224988937378,
+          0.4050000011920929
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 201,
+      "id": 37,
+      "low_confidence_fraction": 0.009950248756218905,
+      "mean_confidence": 0.843401312828064,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.5779991149902344,
+          -0.8060004711151123,
+          0.05112500116229057
+        ],
+        [
+          -0.036499977111816406,
+          -0.43675029277801514,
+          0.6640625
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 306,
+      "id": 38,
+      "low_confidence_fraction": 0.1111111111111111,
+      "mean_confidence": 0.7407642602920532,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.5318336486816406,
+          -0.30117684602737427,
+          2.6907272338867188
+        ],
+        [
+          0.1399233192205429,
+          0.3015710413455963,
+          2.881500005722046
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 365,
+      "id": 39,
+      "low_confidence_fraction": 0.030136986301369864,
+      "mean_confidence": 0.9531654119491577,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.4217495918273926,
+          1.4216663837432861,
+          0.4160909056663513
+        ],
+        [
+          0.058500051498413086,
+          1.4461108446121216,
+          0.6075000166893005
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 52,
+      "id": 40,
+      "low_confidence_fraction": 1,
+      "mean_confidence": 0.40258854627609253,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          -0.29559987783432007,
+          -1.2848578691482544,
+          0.04619999974966049
+        ],
+        [
+          0.2480001449584961,
+          -1.2486671209335327,
+          0.26205554604530334
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 61,
+      "id": 41,
+      "low_confidence_fraction": 1,
+      "mean_confidence": 0.4284830391407013,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          0.7240001559257507,
+          -0.29759132862091064,
+          2.677000045776367
+        ],
+        [
+          1.3436429500579834,
+          0.3007996380329132,
+          2.889357089996338
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 514,
+      "id": 42,
+      "low_confidence_fraction": 0.01556420233463035,
+      "mean_confidence": 0.9853233695030212,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          1.485888957977295,
+          -1.4701337814331055,
+          0.7785833477973938
+        ],
+        [
+          2.601499557495117,
+          -0.15312528610229492,
+          1.284000039100647
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 719,
+      "id": 43,
+      "low_confidence_fraction": 0.1349095966620306,
+      "mean_confidence": 0.9043738842010498,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          1.6651248931884766,
+          -1.2800006866455078,
+          0.05570588260889053
+        ],
+        [
+          1.9844285249710083,
+          -1.2730530500411987,
+          0.26637497544288635
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 52,
+      "id": 44,
+      "low_confidence_fraction": 0.6538461538461539,
+      "mean_confidence": 0.5742480754852295,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          1.7139997482299805,
+          -1.0103081464767456,
+          0.0429999977350235
+        ],
+        [
+          2.018214464187622,
+          -0.6105003356933594,
+          0.4560000002384186
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 181,
+      "id": 45,
+      "low_confidence_fraction": 0.09944751381215469,
+      "mean_confidence": 0.8760728240013123,
+      "method": "DBSCAN within predicted class",
+      "review_required": true
+    }
+  ],
+  "input": {
+    "inference_origin_m": [
+      17.2189998626709,
+      -13.425999641418457,
+      -0.023000000044703484
+    ],
+    "input_points": 739209,
+    "missing_rgb_fallback": false,
+    "network_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "point_count": 739209,
+    "removed_nonfinite": 0,
+    "scale_to_meters": 1,
+    "source": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\pointcloud_client\\qa\\raw_office2.ply",
+    "source_sha256": "ad2b4a0bd769188f4a73721a17fbb9f9ae720a05f07ced7174404449e188fc99",
+    "up_axis": "z"
+  },
+  "model": {
+    "checkpoint": "randlanet_s3dis.pth",
+    "checkpoint_sha256": "b0c5c8148d363c10b7fd33105df5e8b7efeecaa0674650c4761466a94e4d4c87",
+    "device": "cpu",
+    "parameters": 4995093,
+    "torch": "2.11.0+cpu"
+  },
+  "prediction": {
+    "adaptations": "NumPy voxel averages and SciPy kNN; neural forward graph and weights unchanged",
+    "coarse_points": 52050,
+    "confidence_note": "Maximum softmax score, not calibrated probability of correctness.",
+    "coverage_min": 0.5803785601496421,
+    "grid_size": 0.04,
+    "inference_seconds": 3.396905400091782,
+    "minimum_visits": 1,
+    "passes": 4,
+    "patch_size": 40960,
+    "sampling": "spatially regular nearest-neighbor crops, original 0.95 EMA voting with bias correction",
+    "seed": 42
+  },
+  "room": "raw_office2",
+  "unassigned_group_points": 4078
+}

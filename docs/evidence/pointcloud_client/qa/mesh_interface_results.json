@@ -1,0 +1,11 @@
+{
+  "assignments_unchanged": true,
+  "display_toggle": true,
+  "errors": [],
+  "existing_segmentation_remeshed_without_inference": true,
+  "faces": 45105,
+  "saved_model": "<USER_HOME>\\Documents\\PointCloudDeskResults\\mesh_b54bf56b8588\\model.3dm",
+  "selected_group": 2,
+  "success": true,
+  "undo_redo": true
+}

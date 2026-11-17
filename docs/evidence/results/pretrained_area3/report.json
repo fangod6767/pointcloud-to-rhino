@@ -1,0 +1,1629 @@
+{
+  "classes": [
+    "ceiling",
+    "floor",
+    "wall",
+    "beam",
+    "column",
+    "window",
+    "door",
+    "table",
+    "chair",
+    "sofa",
+    "bookcase",
+    "board",
+    "clutter"
+  ],
+  "evaluation": {
+    "accuracy": 0.9323850019937857,
+    "class_iou": {
+      "beam": 0.9483393488643407,
+      "board": 0.8333615484453474,
+      "bookcase": 0.9336948297604035,
+      "ceiling": 0.9755770929975701,
+      "chair": 0.9334657398212513,
+      "clutter": 0.8105446118192352,
+      "column": 0,
+      "door": 0.9448301155266812,
+      "floor": 0.9602573912402165,
+      "sofa": null,
+      "table": 0.8914480272381334,
+      "wall": 0.7125806834831505,
+      "window": 0.819847622721574
+    },
+    "confusion_matrix": [
+      [
+        141326,
+        0,
+        407,
+        401,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1240
+      ],
+      [
+        0,
+        104162,
+        303,
+        0,
+        0,
+        0,
+        206,
+        24,
+        851,
+        0,
+        147,
+        0,
+        205
+      ],
+      [
+        1048,
+        544,
+        89974,
+        21,
+        1290,
+        5759,
+        1189,
+        334,
+        931,
+        0,
+        119,
+        5711,
+        11961
+      ],
+      [
+        73,
+        0,
+        258,
+        26012,
+        0,
+        0,
+        209,
+        0,
+        0,
+        0,
+        0,
+        0,
+        277
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        301,
+        0,
+        325,
+        34004,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        123,
+        0,
+        6,
+        0,
+        0,
+        36067,
+        0,
+        0,
+        0,
+        1,
+        0,
+        46
+      ],
+      [
+        0,
+        168,
+        36,
+        0,
+        0,
+        78,
+        33,
+        44510,
+        74,
+        0,
+        34,
+        0,
+        692
+      ],
+      [
+        0,
+        888,
+        36,
+        0,
+        0,
+        0,
+        0,
+        54,
+        41360,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        91,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        37021,
+        169,
+        161
+      ],
+      [
+        0,
+        0,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29536,
+        0
+      ],
+      [
+        369,
+        845,
+        5926,
+        172,
+        0,
+        1009,
+        293,
+        3893,
+        114,
+        0,
+        1900,
+        0,
+        124511
+      ]
+    ],
+    "miou_present_union": 0.8136622509931587,
+    "points": 759861,
+    "predicted_counts": {
+      "beam": 26612,
+      "board": 35416,
+      "bookcase": 39222,
+      "ceiling": 142816,
+      "chair": 43330,
+      "clutter": 139093,
+      "column": 1615,
+      "door": 37997,
+      "floor": 106737,
+      "sofa": 0,
+      "table": 48815,
+      "wall": 97358,
+      "window": 40850
+    },
+    "scope": "Single supplied room only; not full S3DIS benchmark. Ground truth is loaded only after predictions.",
+    "truth_counts": {
+      "beam": 26829,
+      "board": 29562,
+      "bookcase": 37449,
+      "ceiling": 143374,
+      "chair": 42338,
+      "clutter": 139032,
+      "column": 0,
+      "door": 36243,
+      "floor": 105898,
+      "sofa": 0,
+      "table": 45625,
+      "wall": 118881,
+      "window": 34630
+    }
+  },
+  "group_count": 51,
+  "grouping_note": "Geometric candidates, not learned instances. Small fragments keep group_id=-1. Every point retains its semantic prediction. Group bounds/planes are in rotated/scaled network coordinates; NPZ/PLY points retain source coordinates.",
+  "grouping_parameters": {
+    "eps_m": 0.14,
+    "implementation": "NumPy fixed-order RANSAC + DBSCAN",
+    "minimum_voxels": 35,
+    "plane_distance_m": 0.035,
+    "ransac_trials": 500,
+    "repeatability": "Two independent calls returned identical per-voxel IDs and group metadata.",
+    "seed": 42
+  },
+  "groups": [
+    {
+      "bounds_m": [
+        [
+          11.43446159362793,
+          -14.930273056030273,
+          2.691200017929077
+        ],
+        [
+          16.53203773498535,
+          -11.90322208404541,
+          2.7322728633880615
+        ]
+      ],
+      "class_id": 0,
+      "class_name": "ceiling",
+      "coarse_points": 9060,
+      "id": 0,
+      "low_confidence_fraction": 0.009161147902869758,
+      "mean_confidence": 0.9885177612304688,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 142816,
+      "plane_m": [
+        -0.0006210385195473895,
+        -0.0006639839479282428,
+        0.9999995867181517,
+        -2.711960000598251
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.49393367767334,
+          -14.935700416564941,
+          -0.011277778074145317
+        ],
+        [
+          17.05971336364746,
+          -11.914315223693848,
+          0.036375001072883606
+        ]
+      ],
+      "class_id": 1,
+      "class_name": "floor",
+      "coarse_points": 7496,
+      "id": 1,
+      "low_confidence_fraction": 0.012540021344717182,
+      "mean_confidence": 0.9822121858596802,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 106640,
+      "plane_m": [
+        0.0003666328980881474,
+        0.0009084782132903688,
+        0.9999995201237118,
+        0.0066435190411257535
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.437538146972656,
+          -11.946428298950195,
+          0.7692000269889832
+        ],
+        [
+          13.5042142868042,
+          -11.902999877929688,
+          2.2505714893341064
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 1001,
+      "id": 2,
+      "low_confidence_fraction": 0.07792207792207792,
+      "mean_confidence": 0.8355178833007812,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 15104,
+      "plane_m": [
+        -0.004450391446158863,
+        0.9999824893183569,
+        -0.0039006502840737145,
+        11.973681142612493
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.261154174804688,
+          -11.949143409729004,
+          0.010606060735881329
+        ],
+        [
+          15.144000053405762,
+          -11.899238586425781,
+          1.0634090900421143
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 1464,
+      "id": 3,
+      "low_confidence_fraction": 0.08401639344262295,
+      "mean_confidence": 0.887505054473877,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 22796,
+      "plane_m": [
+        -0.004450391446158863,
+        0.9999824893183569,
+        -0.0039006502840737145,
+        11.973681142612493
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          14.098691940307617,
+          -11.911538124084473,
+          2.1389999389648438
+        ],
+        [
+          15.142000198364258,
+          -11.899499893188477,
+          2.2263572216033936
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 39,
+      "id": 4,
+      "low_confidence_fraction": 0.8717948717948718,
+      "mean_confidence": 0.5260425209999084,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 613,
+      "plane_m": [
+        -0.004450391446158863,
+        0.9999824893183569,
+        -0.0039006502840737145,
+        11.973681142612493
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.450249671936035,
+          -14.952221870422363,
+          0.7179999947547913
+        ],
+        [
+          12.383600234985352,
+          -14.89133358001709,
+          2.2487142086029053
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 373,
+      "id": 5,
+      "low_confidence_fraction": 0.7184986595174263,
+      "mean_confidence": 0.5565207600593567,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 5515,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.442785263061523,
+          -14.933076858520508,
+          2.5112500190734863
+        ],
+        [
+          16.52083396911621,
+          -14.883999824523926,
+          2.706944465637207
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 618,
+      "id": 6,
+      "low_confidence_fraction": 0.13754045307443366,
+      "mean_confidence": 0.7948576807975769,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 7861,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.09433364868164,
+          -14.924750328063965,
+          0.7444444298744202
+        ],
+        [
+          13.374713897705078,
+          -14.909799575805664,
+          2.22056245803833
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 425,
+      "id": 7,
+      "low_confidence_fraction": 0.15529411764705883,
+      "mean_confidence": 0.8176034092903137,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 5567,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.897777557373047,
+          -14.920000076293945,
+          2.0951249599456787
+        ],
+        [
+          14.903166770935059,
+          -14.916000366210938,
+          2.223388910293579
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 52,
+      "id": 8,
+      "low_confidence_fraction": 0.6346153846153846,
+      "mean_confidence": 0.5728582739830017,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 654,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          14.457666397094727,
+          -14.931841850280762,
+          0.7109999656677246
+        ],
+        [
+          16.183813095092773,
+          -14.886199951171875,
+          1.3838571310043335
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 551,
+      "id": 9,
+      "low_confidence_fraction": 0.06896551724137931,
+      "mean_confidence": 0.865373969078064,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 7719,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.379749298095703,
+          -14.928000450134277,
+          1.017199993133545
+        ],
+        [
+          17.003000259399414,
+          -14.885000228881836,
+          2.239000082015991
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 443,
+      "id": 10,
+      "low_confidence_fraction": 0.09480812641083522,
+      "mean_confidence": 0.8570070266723633,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 6553,
+      "plane_m": [
+        -0.00032609678744360566,
+        0.9999990934322369,
+        -0.0013064438714970317,
+        14.92699743554653
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.41100025177002,
+          -14.866726875305176,
+          2.018549919128418
+        ],
+        [
+          11.461714744567871,
+          -13.454357147216797,
+          2.666562557220459
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 143,
+      "id": 11,
+      "low_confidence_fraction": 0.6363636363636364,
+      "mean_confidence": 0.5606525540351868,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 2191,
+      "plane_m": [
+        0.9999465830923253,
+        0.0017039889979244376,
+        0.010194478087592924,
+        -11.440875551967622
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.432538032531738,
+          -13.408666610717773,
+          0.021222222596406937
+        ],
+        [
+          11.494999885559082,
+          -12.298999786376953,
+          0.49050000309944153
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 353,
+      "id": 12,
+      "low_confidence_fraction": 0.12181303116147309,
+      "mean_confidence": 0.724962055683136,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 4767,
+      "plane_m": [
+        0.9999465830923253,
+        0.0017039889979244376,
+        0.010194478087592924,
+        -11.440875551967622
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.403894424438477,
+          -13.259737014770508,
+          0.7584999799728394
+        ],
+        [
+          11.468466758728027,
+          -11.948333740234375,
+          2.7010345458984375
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 522,
+      "id": 13,
+      "low_confidence_fraction": 0.3390804597701149,
+      "mean_confidence": 0.6560109853744507,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 7622,
+      "plane_m": [
+        0.9999465830923253,
+        0.0017039889979244376,
+        0.010194478087592924,
+        -11.440875551967622
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.442500114440918,
+          -14.865221977233887,
+          0.7463333606719971
+        ],
+        [
+          11.48466682434082,
+          -14.697999954223633,
+          1.5829285383224487
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 55,
+      "id": 14,
+      "low_confidence_fraction": 0.9636363636363636,
+      "mean_confidence": 0.4983151853084564,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 735,
+      "plane_m": [
+        0.9999465830923253,
+        0.0017039889979244376,
+        0.010194478087592924,
+        -11.440875551967622
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.983922958374023,
+          -14.880999565124512,
+          0.6570000052452087
+        ],
+        [
+          17.01405906677246,
+          -13.697562217712402,
+          2.174076795578003
+        ]
+      ],
+      "class_id": 2,
+      "class_name": "wall",
+      "coarse_points": 605,
+      "id": 15,
+      "low_confidence_fraction": 0.13553719008264462,
+      "mean_confidence": 0.8028274774551392,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 8769,
+      "plane_m": [
+        0.9999465770765605,
+        -0.009882031954713927,
+        -0.0030312435263789694,
+        -17.141309958328712
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.45655632019043,
+          -14.923250198364258,
+          2.138333320617676
+        ],
+        [
+          17.0087833404541,
+          -11.907400131225586,
+          2.7100000381469727
+        ]
+      ],
+      "class_id": 3,
+      "class_name": "beam",
+      "coarse_points": 1718,
+      "id": 16,
+      "low_confidence_fraction": 0.03550640279394645,
+      "mean_confidence": 0.9475059509277344,
+      "method": "DBSCAN within predicted class",
+      "original_points": 26588,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.40999984741211,
+          -14.930533409118652,
+          1.5793333053588867
+        ],
+        [
+          11.498332977294922,
+          -14.5352144241333,
+          2.1040000915527344
+        ]
+      ],
+      "class_id": 4,
+      "class_name": "column",
+      "coarse_points": 98,
+      "id": 17,
+      "low_confidence_fraction": 0.8877551020408163,
+      "mean_confidence": 0.5360847115516663,
+      "method": "DBSCAN within predicted class",
+      "original_points": 1448,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.384318351745605,
+          -14.780777931213379,
+          0.7739999890327454
+        ],
+        [
+          11.45122241973877,
+          -12.337737083435059,
+          2.661250114440918
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 2567,
+      "id": 18,
+      "low_confidence_fraction": 0.10751850409037787,
+      "mean_confidence": 0.8729854226112366,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 40077,
+      "plane_m": [
+        0.9999991199604928,
+        0.0003243692494319366,
+        0.0012864147192539596,
+        -11.415484476906677
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.454272270202637,
+          -12.37588882446289,
+          0.7456250190734863
+        ],
+        [
+          11.534000396728516,
+          -12.175928115844727,
+          1.1451250314712524
+        ]
+      ],
+      "class_id": 5,
+      "class_name": "window",
+      "coarse_points": 45,
+      "id": 19,
+      "low_confidence_fraction": 0.9333333333333333,
+      "mean_confidence": 0.4992818534374237,
+      "method": "DBSCAN within predicted class",
+      "original_points": 586,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.087909698486328,
+          -12.441666603088379,
+          0.014947367832064629
+        ],
+        [
+          17.065000534057617,
+          -12.282111167907715,
+          2.171785831451416
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 1463,
+      "id": 20,
+      "low_confidence_fraction": 0.007518796992481203,
+      "mean_confidence": 0.9786123037338257,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 21447,
+      "plane_m": [
+        -0.10084252816439652,
+        0.9948890051503504,
+        -0.005162552116870202,
+        13.983077424338498
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.993833541870117,
+          -13.816550254821777,
+          0.01693333312869072
+        ],
+        [
+          17.069499969482422,
+          -12.276900291442871,
+          2.1575000286102295
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 1057,
+      "id": 21,
+      "low_confidence_fraction": 0.04257332071901608,
+      "mean_confidence": 0.9342333078384399,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 14249,
+      "plane_m": [
+        0.9998849847947847,
+        -0.014334569814821752,
+        0.004953512910754332,
+        -17.226848213484434
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.079666137695312,
+          -12.482000350952148,
+          0.015833333134651184
+        ],
+        [
+          16.218856811523438,
+          -12.342111587524414,
+          2.0901665687561035
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 92,
+      "id": 22,
+      "low_confidence_fraction": 0,
+      "mean_confidence": 0.8480586409568787,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 1053,
+      "plane_m": [
+        0.6866647246502476,
+        0.726936093565076,
+        -0.007447938865642267,
+        -2.056216178119907
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.98233413696289,
+          -13.223999977111816,
+          0.8619999885559082
+        ],
+        [
+          16.999000549316406,
+          -13.192000389099121,
+          1.7046666145324707
+        ]
+      ],
+      "class_id": 6,
+      "class_name": "door",
+      "coarse_points": 37,
+      "id": 23,
+      "low_confidence_fraction": 0,
+      "mean_confidence": 0.9974097013473511,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 336,
+      "plane_m": [
+        0.6866647246502476,
+        0.726936093565076,
+        -0.007447938865642267,
+        -2.056216178119907
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.45814323425293,
+          -14.918999671936035,
+          0.01817857101559639
+        ],
+        [
+          17.010143280029297,
+          -11.91450023651123,
+          0.8144000172615051
+        ]
+      ],
+      "class_id": 7,
+      "class_name": "table",
+      "coarse_points": 3706,
+      "id": 24,
+      "low_confidence_fraction": 0.07339449541284404,
+      "mean_confidence": 0.8901548981666565,
+      "method": "DBSCAN within predicted class",
+      "original_points": 48815,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.260000228881836,
+          -12.607000350952148,
+          0.2590666711330414
+        ],
+        [
+          12.976333618164062,
+          -11.898500442504883,
+          1.0827499628067017
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 628,
+      "id": 25,
+      "low_confidence_fraction": 0.09394904458598727,
+      "mean_confidence": 0.9145467877388,
+      "method": "DBSCAN within predicted class",
+      "original_points": 7134,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.549555778503418,
+          -12.293375015258789,
+          0.00671428581699729
+        ],
+        [
+          12.780499458312988,
+          -11.983227729797363,
+          0.13884615898132324
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 65,
+      "id": 26,
+      "low_confidence_fraction": 0.046153846153846156,
+      "mean_confidence": 0.849606454372406,
+      "method": "DBSCAN within predicted class",
+      "original_points": 777,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.566499710083008,
+          -13.923500061035156,
+          0.015034482814371586
+        ],
+        [
+          13.213000297546387,
+          -13.230999946594238,
+          1.1535000801086426
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 711,
+      "id": 27,
+      "low_confidence_fraction": 0.009845288326300985,
+      "mean_confidence": 0.9852620959281921,
+      "method": "DBSCAN within predicted class",
+      "original_points": 8146,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.270999908447266,
+          -13.145999908447266,
+          0.007499999832361937
+        ],
+        [
+          14.00374984741211,
+          -12.392600059509277,
+          0.9210000038146973
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 783,
+      "id": 28,
+      "low_confidence_fraction": 0.011494252873563218,
+      "mean_confidence": 0.9804484844207764,
+      "method": "DBSCAN within predicted class",
+      "original_points": 9341,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.914999961853027,
+          -14.121000289916992,
+          0.01431034505367279
+        ],
+        [
+          14.571200370788574,
+          -13.456514358520508,
+          0.9500000476837158
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 967,
+      "id": 29,
+      "low_confidence_fraction": 0.011375387797311272,
+      "mean_confidence": 0.9747847318649292,
+      "method": "DBSCAN within predicted class",
+      "original_points": 11018,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          15.54699993133545,
+          -14.26156234741211,
+          0.4077500104904175
+        ],
+        [
+          16.171308517456055,
+          -13.578749656677246,
+          1.0420000553131104
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 426,
+      "id": 30,
+      "low_confidence_fraction": 0.004694835680751174,
+      "mean_confidence": 0.9582277536392212,
+      "method": "DBSCAN within predicted class",
+      "original_points": 4700,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          15.549785614013672,
+          -14.244000434875488,
+          0.009399999864399433
+        ],
+        [
+          16.149999618530273,
+          -13.617841720581055,
+          0.1742222160100937
+        ]
+      ],
+      "class_id": 8,
+      "class_name": "chair",
+      "coarse_points": 153,
+      "id": 31,
+      "low_confidence_fraction": 0.05228758169934641,
+      "mean_confidence": 0.8248322606086731,
+      "method": "DBSCAN within predicted class",
+      "original_points": 1873,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          14.761499404907227,
+          -14.138221740722656,
+          0.052444443106651306
+        ],
+        [
+          15.406000137329102,
+          -14.069167137145996,
+          0.5399230718612671
+        ]
+      ],
+      "class_id": 10,
+      "class_name": "bookcase",
+      "coarse_points": 132,
+      "id": 32,
+      "low_confidence_fraction": 0.8636363636363636,
+      "mean_confidence": 0.511869490146637,
+      "method": "DBSCAN within predicted class",
+      "original_points": 1934,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          15.10444450378418,
+          -12.390153884887695,
+          0.004999999888241291
+        ],
+        [
+          16.09149932861328,
+          -11.905142784118652,
+          2.17368745803833
+        ]
+      ],
+      "class_id": 10,
+      "class_name": "bookcase",
+      "coarse_points": 2867,
+      "id": 33,
+      "low_confidence_fraction": 0.012207882804325079,
+      "mean_confidence": 0.966797411441803,
+      "method": "DBSCAN within predicted class",
+      "original_points": 37287,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.259099960327148,
+          -11.951000213623047,
+          0.8181999921798706
+        ],
+        [
+          15.147782325744629,
+          -11.89900016784668,
+          2.224600076675415
+        ]
+      ],
+      "class_id": 11,
+      "class_name": "board",
+      "coarse_points": 2305,
+      "id": 34,
+      "low_confidence_fraction": 0.0633405639913232,
+      "mean_confidence": 0.9230672121047974,
+      "method": "RANSAC plane + DBSCAN",
+      "original_points": 35365,
+      "plane_m": [
+        0.001481819230069049,
+        0.9999724530372027,
+        -0.007273058402638588,
+        11.904744937059709
+      ],
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.434000015258789,
+          -12.503277778625488,
+          1.4183332920074463
+        ],
+        [
+          11.449000358581543,
+          -12.057272911071777,
+          2.0590527057647705
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 161,
+      "id": 35,
+      "low_confidence_fraction": 0.422360248447205,
+      "mean_confidence": 0.6066884398460388,
+      "method": "DBSCAN within predicted class",
+      "original_points": 2348,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.442749977111816,
+          -14.943249702453613,
+          0.8323333263397217
+        ],
+        [
+          16.61455535888672,
+          -14.664368629455566,
+          2.620500087738037
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 5417,
+      "id": 36,
+      "low_confidence_fraction": 0.07439542182019568,
+      "mean_confidence": 0.8735232353210449,
+      "method": "DBSCAN within predicted class",
+      "original_points": 75481,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.456571578979492,
+          -12.10200023651123,
+          2.1778125762939453
+        ],
+        [
+          16.214000701904297,
+          -11.902909278869629,
+          2.487874984741211
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 1263,
+      "id": 37,
+      "low_confidence_fraction": 0.0665083135391924,
+      "mean_confidence": 0.8800129294395447,
+      "method": "DBSCAN within predicted class",
+      "original_points": 16703,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.667500495910645,
+          -13.340944290161133,
+          0.7590000033378601
+        ],
+        [
+          11.98799991607666,
+          -13.01159954071045,
+          0.921999990940094
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 73,
+      "id": 38,
+      "low_confidence_fraction": 0.1506849315068493,
+      "mean_confidence": 0.8469430804252625,
+      "method": "DBSCAN within predicted class",
+      "original_points": 813,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          11.904999732971191,
+          -14.402750015258789,
+          0.7749412059783936
+        ],
+        [
+          12.489538192749023,
+          -13.433500289916992,
+          1.1733332872390747
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 468,
+      "id": 39,
+      "low_confidence_fraction": 0.03418803418803419,
+      "mean_confidence": 0.9459041953086853,
+      "method": "DBSCAN within predicted class",
+      "original_points": 5698,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          12.414466857910156,
+          -13.737222671508789,
+          2.658904790878296
+        ],
+        [
+          13.105125427246094,
+          -13.09333324432373,
+          2.853076934814453
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 331,
+      "id": 40,
+      "low_confidence_fraction": 0.03927492447129909,
+      "mean_confidence": 0.9298446178436279,
+      "method": "DBSCAN within predicted class",
+      "original_points": 3775,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.222332954406738,
+          -14.946000099182129,
+          0.015124999918043613
+        ],
+        [
+          14.727800369262695,
+          -14.664199829101562,
+          0.16566666960716248
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 210,
+      "id": 41,
+      "low_confidence_fraction": 0.3142857142857143,
+      "mean_confidence": 0.6509475111961365,
+      "method": "DBSCAN within predicted class",
+      "original_points": 2444,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.310750007629395,
+          -14.694846153259277,
+          0.7674000263214111
+        ],
+        [
+          14.30042839050293,
+          -14.256388664245605,
+          1.2630000114440918
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 233,
+      "id": 42,
+      "low_confidence_fraction": 0.11158798283261803,
+      "mean_confidence": 0.888619065284729,
+      "method": "DBSCAN within predicted class",
+      "original_points": 2197,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.30150032043457,
+          -14.529600143432617,
+          0.015533333644270897
+        ],
+        [
+          13.533357620239258,
+          -14.073249816894531,
+          0.4429999887943268
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 148,
+      "id": 43,
+      "low_confidence_fraction": 0.08783783783783784,
+      "mean_confidence": 0.8848934769630432,
+      "method": "DBSCAN within predicted class",
+      "original_points": 1725,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          13.641500473022461,
+          -13.712666511535645,
+          2.6571176052093506
+        ],
+        [
+          14.260120391845703,
+          -13.097611427307129,
+          2.855077028274536
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 491,
+      "id": 44,
+      "low_confidence_fraction": 0.012219959266802444,
+      "mean_confidence": 0.980703592300415,
+      "method": "DBSCAN within predicted class",
+      "original_points": 5759,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          14.349631309509277,
+          -14.552499771118164,
+          0.7768124938011169
+        ],
+        [
+          14.800999641418457,
+          -14.335332870483398,
+          0.8255293965339661
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 40,
+      "id": 45,
+      "low_confidence_fraction": 0.175,
+      "mean_confidence": 0.7276429533958435,
+      "method": "DBSCAN within predicted class",
+      "original_points": 451,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          14.863500595092773,
+          -13.715999603271484,
+          2.663800001144409
+        ],
+        [
+          15.473428726196289,
+          -13.105769157409668,
+          2.8589999675750732
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 497,
+      "id": 46,
+      "low_confidence_fraction": 0.018108651911468814,
+      "mean_confidence": 0.9802078008651733,
+      "method": "DBSCAN within predicted class",
+      "original_points": 5983,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          15.098099708557129,
+          -14.135666847229004,
+          0.021454544737935066
+        ],
+        [
+          15.415200233459473,
+          -14.075624465942383,
+          0.5410000085830688
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 79,
+      "id": 47,
+      "low_confidence_fraction": 0.7468354430379747,
+      "mean_confidence": 0.5106180906295776,
+      "method": "DBSCAN within predicted class",
+      "original_points": 991,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          15.606666564941406,
+          -14.560999870300293,
+          0.7548999786376953
+        ],
+        [
+          16.610416412353516,
+          -14.037500381469727,
+          1.185499906539917
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 438,
+      "id": 48,
+      "low_confidence_fraction": 0.01141552511415525,
+      "mean_confidence": 0.9687879085540771,
+      "method": "DBSCAN within predicted class",
+      "original_points": 5054,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.5404109954834,
+          -13.70836353302002,
+          0.01537499949336052
+        ],
+        [
+          17.04800033569336,
+          -13.415499687194824,
+          0.5017333030700684
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 233,
+      "id": 49,
+      "low_confidence_fraction": 0.5965665236051502,
+      "mean_confidence": 0.5571379065513611,
+      "method": "DBSCAN within predicted class",
+      "original_points": 3006,
+      "review_required": true
+    },
+    {
+      "bounds_m": [
+        [
+          16.98900032043457,
+          -14.825526237487793,
+          1.1019999980926514
+        ],
+        [
+          17.013999938964844,
+          -14.020666122436523,
+          2.0309998989105225
+        ]
+      ],
+      "class_id": 12,
+      "class_name": "clutter",
+      "coarse_points": 419,
+      "id": 50,
+      "low_confidence_fraction": 0.15990453460620524,
+      "mean_confidence": 0.8093213438987732,
+      "method": "DBSCAN within predicted class",
+      "original_points": 5921,
+      "review_required": true
+    }
+  ],
+  "input": {
+    "missing_rgb_fallback": false,
+    "network_rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "point_count": 759861,
+    "scale_to_meters": 1,
+    "source": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\data\\processed\\Area_3_office_1.npz",
+    "source_sha256": "70d0ae5fcecbd45b9867f0b5f039f83d3da436ba7479ebfe314bc1bf97a3b434",
+    "up_axis": "z"
+  },
+  "model": {
+    "checkpoint": "randlanet_s3dis.pth",
+    "checkpoint_sha256": "b0c5c8148d363c10b7fd33105df5e8b7efeecaa0674650c4761466a94e4d4c87",
+    "device": "cpu",
+    "parameters": 4995093,
+    "torch": "2.11.0+cpu"
+  },
+  "prediction": {
+    "adaptations": "NumPy voxel averages and SciPy kNN; neural forward graph and weights unchanged",
+    "coarse_points": 53828,
+    "confidence_note": "Maximum softmax score, not calibrated probability of correctness.",
+    "coverage_min": 0.8690970030482625,
+    "grid_size": 0.04,
+    "inference_seconds": 6.089563800022006,
+    "minimum_visits": 2,
+    "passes": 5,
+    "patch_size": 40960,
+    "sampling": "spatially regular nearest-neighbor crops, original 0.95 EMA voting with bias correction",
+    "seed": 42
+  },
+  "unassigned_group_points": 3416
+}

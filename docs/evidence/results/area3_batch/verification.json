@@ -1,0 +1,9 @@
+{
+  "aggregate_confusion_matrix_matches": true,
+  "all_group_class_ids_and_point_counts_consistent": true,
+  "all_room_metrics_recomputed_from_saved_predictions": true,
+  "all_saved_xyz_and_rgb_equal_source": true,
+  "failed_checks": 0,
+  "points_checked": 18662173,
+  "rooms_checked": 23
+}

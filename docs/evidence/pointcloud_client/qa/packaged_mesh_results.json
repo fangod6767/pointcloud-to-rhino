@@ -1,0 +1,15 @@
+{
+  "closed_solids": 0,
+  "cloud_objects": 47,
+  "cloud_points": 739209,
+  "gui_loaded_points": 739209,
+  "gui_models": 47,
+  "mesh_faces": 359631,
+  "meshes": 47,
+  "models": 47,
+  "packaged": true,
+  "path": "<USER_HOME>\\Documents\\ChatGPT\\fyx\\pointcloud_course_project\\pointcloud_client\\qa\\packaged_mesh_1794391633\\model.3dm",
+  "readback_valid": true,
+  "success": true,
+  "units": "meters"
+}

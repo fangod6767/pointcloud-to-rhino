@@ -1,0 +1,10 @@
+{
+  "bytes": 4394701719,
+  "dataset": "S3DIS v1.2 Aligned Version",
+  "download_date": "2026-11-11",
+  "download_url": "https://huggingface.co/datasets/cminst/S3DIS/resolve/main/Stanford3dDataset_v1.2_Aligned_Version.zip",
+  "license_note": "Mirror license label does not replace original dataset terms.",
+  "sha256": "f16db73310983e6b4df9b3d5290d20315e0cdf56c14f0d795f96d372378fce94",
+  "source_type": "third-party mirror",
+  "verification": "matches Hugging Face repository LFS SHA256; not an independently supplied Stanford checksum"
+}
