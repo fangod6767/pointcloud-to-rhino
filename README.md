@@ -8,7 +8,7 @@
 
 ## Windows 客户端下载
 
-**[下载 Windows 64 位完整客户端（约 432 MB）](https://github.com/fangod6767/pointcloud-to-rhino/releases/download/v0.4.0/PointCloudDesk-Windows-x64.zip)** · [版本说明与校验文件](https://github.com/fangod6767/pointcloud-to-rhino/releases/tag/v0.4.0)
+**[下载 Windows 64 位完整客户端（约 409 MB）](https://github.com/fangod6767/pointcloud-to-rhino/releases/download/v0.4.0/PointCloudDesk-Windows-x64.zip)** · [版本说明与校验文件](https://github.com/fangod6767/pointcloud-to-rhino/releases/tag/v0.4.0)
 
 1. 下载 `PointCloudDesk-Windows-x64.zip`，将整个压缩包解压。
 2. 打开解压后的 `PointCloudDesk` 文件夹，双击 `PointCloudDesk.exe`。
@@ -108,3 +108,4 @@ Git 源码仓库不附完整数据集、原始点云样本、模型权重、安�
 ```
 
 其他测试包含对本地真实样例、GUI 或历史成果的依赖，不能在缺少这些文件时直接当作通用测试套件运行。
+
