@@ -6,6 +6,18 @@
 
 ![分组与网格预览](docs/images/mesh_preview.png)
 
+## Windows 客户端下载
+
+**[下载 Windows 64 位完整客户端（约 432 MB）](https://github.com/fangod6767/pointcloud-to-rhino/releases/download/v0.4.0/PointCloudDesk-Windows-x64.zip)** · [版本说明与校验文件](https://github.com/fangod6767/pointcloud-to-rhino/releases/tag/v0.4.0)
+
+1. 下载 `PointCloudDesk-Windows-x64.zip`，将整个压缩包解压。
+2. 打开解压后的 `PointCloudDesk` 文件夹，双击 `PointCloudDesk.exe`。
+3. 保留旁边的 `_internal`、`engine` 和 `THIRD_PARTY` 文件夹，不要只复制 EXE。
+
+完整包包含运行环境、CPU 分割引擎和预训练权重，**无需安装 Python 或另行下载权重**。打开后即可导入自己的彩色室内点云。处理在本机执行，查看与继续编辑 3DM 可使用 Rhino 8。尚未在所有 Windows 设备上验证。
+
+GitHub 自动生成的 `Source code (zip)` 是源码包；直接使用软件请下载上面的客户端压缩包。
+
 ## 工作流程
 
 **彩色点云 → RandLA-Net 语义分割 → RANSAC 平面提取 + DBSCAN 空间聚类 → 人工审阅 → 贴合点云的网格 → 3DM**
@@ -18,7 +30,7 @@
 
 输出是 **Mesh**，不保证封闭，也不是自动生成的 BIM 或 NURBS 实体。几何分组是候选组，仍需人工判断。该预训练模型面向室内 S3DIS 数据；室外、无颜色或不同扫描条件下的质量需要重新验证。
 
-## 安装与启动（Windows）
+## 从源码安装与启动（Windows）
 
 本项目原环境使用 Python 3.12。以下命令在仓库根目录的 PowerShell 中执行：
 
@@ -73,7 +85,7 @@ py -3.12 -m venv .venv
 - 网络实现改编自 [Open3D-ML](https://github.com/isl-org/Open3D-ML)，保留其 [MIT 声明](vendor/open3d_ml/LICENSE)。固定上游提交、权重来源与 SHA-256 见 [weights/provenance.json](weights/provenance.json)。
 - `download_weights.py` 下载约 60 MB 的官方发布权重并校验 SHA-256；权重不存入 Git。
 
-仓库不附完整数据集、原始点云样本、模型权重、安装环境、打包 EXE 或历史 3DM。使用者自行取得所需资产并遵守各自条款。本仓库目前未对原创代码声明统一开源许可证；公开展示不改变第三方文件已有许可。
+Git 源码仓库不附完整数据集、原始点云样本、模型权重、安装环境、打包 EXE 或历史 3DM；Releases 中的完整客户端另附运行环境和预训练权重，并保留第三方许可与出处。使用者自行取得点云数据并遵守各自条款。本仓库目前未对原创代码声明统一开源许可证；公开展示不改变第三方文件已有许可。
 
 ## 文件入口与验证
 
